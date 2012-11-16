@@ -12,7 +12,7 @@
 
   <groupId>org.hudsonci.plugins</groupId>
   <artifactId>console-column-plugin</artifactId>
-  <version>1.6-SNAPSHOT</version>
+  <version>1.5-h-1-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <name>Console Column Plugin</name>
@@ -35,13 +35,28 @@
     <url>https://github.com/hudson3-plugins/console-column-plugin</url>
   </scm>
 
+  <!-- Original developer moved to contributors at his request -->
   <developers>
     <developer>
       <id>bobfoster</id>
       <name>Bob Foster</name>
       <email>bobfoster@gmail.com</email>
+      <roles>
+      	<role>Hudson Maintainer</role>
+      </roles>
     </developer>
   </developers>
+  
+  <contributors>
+  	<contributor>
+  		<!--id>jieryn</id-->
+      	<name>Jesse Farinacci</name>
+      	<email>jieryn@gmail.com</email>
+      	<roles>
+      		<role>Original Developer</role>
+      	</roles>
+  	</contributor>
+  </contributors>
   
   <properties>
     
